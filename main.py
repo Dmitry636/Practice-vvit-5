@@ -1,7 +1,10 @@
 import telebot
 from telebot import types
 
-bot = telebot.TeleBot("2113063453:AAHcTTHMjITs_5h52-qZBGPYS1Pw7RtcMr4")
+import configure
+
+bot = telebot.TeleBot(configure.token)
+
 
 # Создание стартовой команды и выплывающих кнопок
 @bot.message_handler(commands=['start'])
