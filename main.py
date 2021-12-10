@@ -1,7 +1,6 @@
 import telebot
 from telebot import types
 
-token = "2113063453:AAHcTTHMjITs_5h52-qZBGPYS1Pw7RtcMr4"
 bot = telebot.TeleBot("2113063453:AAHcTTHMjITs_5h52-qZBGPYS1Pw7RtcMr4")
 
 # Создание стартовой команды и выплывающих кнопок
